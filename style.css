@@ -1,0 +1,23 @@
+.site-header nav {
+    flex: 1;
+}
+
+.site-header nav .logout-item {
+    margin-top: auto;
+    color: #f08a8a;
+}
+
+.site-header nav .logout-item:hover {
+    background-color: rgba(255, 245, 245, 0.12);
+    color: #ffb3b3;
+}
+
+@media (max-width: 1023px) {
+    .site-header nav {
+        flex: 0 0 auto;
+    }
+
+    .site-header nav .logout-item {
+        margin-top: 0;
+    }
+}
